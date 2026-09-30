@@ -15,7 +15,7 @@
 将仓库目录放到 Codex skills 目录，并保留目录名：
 
 ```powershell
-git clone https://github.com/junjialin37-blip/cinematic-ad-director.git "$env:CODEX_HOME\skills\cinematic-ad-director"
+git clone https://github.com/leoj-progress/cinematic-ad-director.git "$env:CODEX_HOME\skills\cinematic-ad-director"
 ```
 
 如果没有设置 `CODEX_HOME`，可直接放到用户 skills 目录，例如：
@@ -66,5 +66,6 @@ python scripts/make_motion_strips.py .\videos .\shots\video-01.json .\strips --f
 ## 许可证
 
 本项目使用 MIT License，详见 [`LICENSE`](LICENSE)。版权持有人：leoj 无限进步。
+
 
 
